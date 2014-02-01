@@ -44,7 +44,7 @@ write less test with multiple data sets keeping the code coverage high.
 ```
 
 The description of how use data provider in PHP Unit is provided in my 
-[blog post](http://geshan.blogspot.com).
+[blog post](geshan.blogspot.com/2014/02/using-phpunit-data-provider-for-less.html).
 
 
 ## Tests
