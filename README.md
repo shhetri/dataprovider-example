@@ -1,5 +1,7 @@
 # Data Provider Example
 
+[![Build Status](https://api.travis-ci.org/geshan/dataprovider-example.png)](https://travis-ci.org/geshan/dataprovider-example)
+
 This is a simple example of using data provider in PHP Unit. It can be used to
 write less test with multiple data sets keeping the code coverage high.
 
