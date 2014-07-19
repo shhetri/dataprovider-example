@@ -3,7 +3,7 @@
 namespace DataProvider\Example;
 
 /**
- * A simple test chekcout class for the dataprovider example
+ * A simple test checkout class for the data provider example
  *
  */
 class Checkout 
@@ -14,10 +14,10 @@ class Checkout
     protected $paymentMethod;
 
     /**
-     * Calcuates total, if payment method is cash 5.00 is added as 
+     * Calculates total, if payment method is cash 5.00 is added as
      * post payment fees.
      * 
-     * @param type $paymentMethod
+     * @param string $paymentMethod
      */
     public function calculateTotal($paymentMethod)
     {
