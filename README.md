@@ -2,6 +2,8 @@
 
 [![Build Status](https://api.travis-ci.org/geshan/dataprovider-example.png)](https://travis-ci.org/geshan/dataprovider-example)
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/56ff09b2-7954-4cb2-a6da-6af863775107/small.png)](https://insight.sensiolabs.com/projects/56ff09b2-7954-4cb2-a6da-6af863775107)
+
 This is a simple example of using data provider in PHP Unit. It can be used to
 write less test with multiple data sets keeping the code coverage high.
 
