@@ -59,8 +59,7 @@ You can run composer update
 
 ```
 
-and then run the tests using the command below on the folder where the repo is 
-cloned.
+and then run the tests using the command below on the folder where the repo is cloned.
 
 ```
 
