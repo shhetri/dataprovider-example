@@ -1,0 +1,19 @@
+language: php
+
+php:
+ - 5.5
+
+before_script:
+ - mkdir -p shippable/codecoverage
+ - mkdir -p shippable/testresults
+ - composer self-update && composer --no-interaction --prefer-source install
+
+script:
+ - vendor/bin/phpunit --coverage-clover shippable/codecoverage/clover.xml tests
+
+notifications:
+email:
+ recipients:
+  - shhetri.test@gmail.com
+ on_success: always
+ on_failure: always
